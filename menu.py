@@ -1,5 +1,6 @@
 import argparse
 from typing import List
+
 import numpy as np
 
 def menu(menu: List[str]) -> str:
@@ -11,12 +12,8 @@ def menu(menu: List[str]) -> str:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="What is your menu")
-    parser.add_argument('--menu', type=str, required=True,
-                         help="Menu list of strings, separated by commas")
+    parser.add_argument('--menu', type=List[str], required=True,
+                         help="Menu list of strings")
     args = parser.parse_args()
-
-
-    menu_list = [item.strip() for item in args.menu.split(',')]
-
-    result = menu(menu_list)
+    result = menu(args.menu)
     print(f"Your menu is {result}!")
