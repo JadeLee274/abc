@@ -1,15 +1,13 @@
 import argparse
-from typing import *
+from typing import List
+
 import numpy as np
 
 def menu(menu: List[str]) -> str:
     dinner = {}
     for _ in range(10000):
         rand = np.random.choice(menu)
-        if dinner.get(rand) is None:
-            dinner[rand] = 1
-        else:
-            dinner[rand] += 1
+        dinner[rand] = dinner.get(rand, 0) + 1
     return max(dinner, key=dinner.get)
 
 if __name__ == '__main__':
