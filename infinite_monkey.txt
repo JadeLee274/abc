@@ -1,1 +1,5 @@
-The infinite monkey theorem states that a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, including the complete works of William Shakespeare. In fact, the monkey would almost surely type every possible finite text an infinite number of times. The theorem can be generalized to state that any sequence of events that has a non-zero probability of happening will almost certainly occur an infinite number of times, given an infinite amount of time or a universe that is infinite in size.
+The infinite monkey theorem states that a monkey hitting keys at random on a typewriter keyboard for an infinite amount of time will almost surely type any given text, including the complete works of William Shakespeare. 
+
+In fact, the monkey would almost surely type every possible finite text an infinite number of times. 
+
+The theorem can be generalized to state that any sequence of events that has a non-zero probability of happening will almost certainly occur an infinite number of times, given an infinite amount of time or a universe that is infinite in size.
